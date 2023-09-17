@@ -1,0 +1,25 @@
+.main {
+  position: relative;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  h1 {
+    margin-bottom: 23px;
+  }
+
+  p {
+    max-width: 444px;
+    color: #fee8c8;
+    text-align: center;
+    font-family: Sorts Mill Goudy;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+  }
+}

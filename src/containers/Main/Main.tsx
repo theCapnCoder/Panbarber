@@ -1,4 +1,6 @@
+import { Button } from "../../components/Button/Button";
 import styles from "./style.module.scss";
+import clsx from "clsx";
 
 export const Main = () => {
   return (
@@ -9,11 +11,8 @@ export const Main = () => {
         świata.
       </p>
 
-      <button>Zarezerwuj wizytę</button>
+      <Button>Zarezerwuj wizytę</Button>
 
-      <div className={styles.contact}>
-        <h3>Zadzwoń</h3>
-      </div>
     </section>
   );
 };
