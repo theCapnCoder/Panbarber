@@ -1,5 +1,6 @@
 import { AboutUs } from "./componetns/AbouUs/AboutUs";
 import { Contact } from "./componetns/Contact/Contact";
+import { Footer } from "./componetns/Footer/Footer";
 import { Header } from "./componetns/Header/Header";
 import { Main } from "./componetns/Main/Main";
 import { MainSlider } from "./componetns/MainSlider/MainSlider";
@@ -16,6 +17,7 @@ function App() {
       <MainSlider />
       <Service />
       <Contact />
+      <Footer />
     </div>
   );
 }
