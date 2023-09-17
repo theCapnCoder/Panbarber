@@ -1,6 +1,7 @@
 import { AboutUs } from "./componetns/AbouUs/AboutUs";
 import { Header } from "./componetns/Header/Header";
 import { Main } from "./componetns/Main/Main";
+import { MainSlider } from "./componetns/MainSlider/MainSlider";
 
 import styles from "./style.module.scss";
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Main />
       <AboutUs />
+      <MainSlider />
     </div>
   );
 }

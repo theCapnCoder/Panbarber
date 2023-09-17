@@ -1,8 +1,4 @@
 import styles from "./style.module.scss";
-import { Scissors } from "../../assets/svg/images/Scissors";
-import { Blank } from "../../assets/svg/images/Blank";
-import { Bottle } from "../../assets/svg/images/Bottle";
-import { Glass } from "../../assets/svg/images/Glass";
 import Icon, { IconName } from "../../assets/svg/images";
 
 type Card = {
