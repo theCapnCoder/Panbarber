@@ -1,10 +1,10 @@
-import { AboutUs } from "./componetns/AbouUs/AboutUs";
-import { Contact } from "./componetns/Contact/Contact";
-import { Footer } from "./componetns/Footer/Footer";
-import { Header } from "./componetns/Header/Header";
-import { Main } from "./componetns/Main/Main";
-import { MainSlider } from "./componetns/MainSlider/MainSlider";
-import { Service } from "./componetns/Service/Service";
+import { AboutUs } from "./containers/AbouUs/AboutUs";
+import { Contact } from "./containers/Contact/Contact";
+import { Footer } from "./containers/Footer/Footer";
+import { Header } from "./containers/Header/Header";
+import { Main } from "./containers/Main/Main";
+import { MainSlider } from "./containers/MainSlider/MainSlider";
+import { Service } from "./containers/Service/Service";
 
 import styles from "./style.module.scss";
 
@@ -12,7 +12,6 @@ function App() {
   return (
     <div className={styles.app}>
       <Header />
-      <Main />
       <AboutUs />
       <MainSlider />
       <Service />
