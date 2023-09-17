@@ -1,3 +1,4 @@
+import { AboutUs } from "./componetns/AbouUs/AboutUs";
 import { Header } from "./componetns/Header/Header";
 import { Main } from "./componetns/Main/Main";
 
@@ -8,6 +9,7 @@ function App() {
     <div className={styles.app}>
       <Header />
       <Main />
+      <AboutUs />
     </div>
   );
 }

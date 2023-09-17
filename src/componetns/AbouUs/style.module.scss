@@ -1,0 +1,45 @@
+.aboutUs {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .right {
+    max-width: 800px;
+    display: flex;
+    gap: 50;
+    flex-wrap: wrap;
+
+    .card {
+      max-width: 300px;
+      width: 300px;
+      display: flex;
+
+      &:nth-child(1),
+      &:nth-child(3) {
+        margin-right: 40px;
+      }
+
+      &:nth-child(1) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .icon {
+    width: 64px;
+    height: 64px;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
