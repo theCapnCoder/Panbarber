@@ -1,7 +1,11 @@
+import { Header } from "./componetns/Header/Header";
+
+import styles from "./style.module.scss";
+
 function App() {
   return (
-    <div>
-      <h2>Panbarber</h2>
+    <div className={styles.app}>
+      <Header />
     </div>
   );
 }
