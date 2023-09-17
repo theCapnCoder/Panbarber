@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/Panbarber/static/js/main.cfbff8df.js",
+    "main.css": "/Panbarber/static/css/main.b8df5935.css",
+    "main.js": "/Panbarber/static/js/main.689f1d7d.js",
+    "static/media/map.jpg": "/Panbarber/static/media/map.be2cbbb6eb78c0789c5e.jpg",
     "index.html": "/Panbarber/index.html",
-    "main.cfbff8df.js.map": "/Panbarber/static/js/main.cfbff8df.js.map"
+    "main.b8df5935.css.map": "/Panbarber/static/css/main.b8df5935.css.map",
+    "main.689f1d7d.js.map": "/Panbarber/static/js/main.689f1d7d.js.map"
   },
   "entrypoints": [
-    "static/js/main.cfbff8df.js"
+    "static/css/main.b8df5935.css",
+    "static/js/main.689f1d7d.js"
   ]
 }
